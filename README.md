@@ -20,4 +20,4 @@ the app runs on http://localhost:3000
 
 
 ## Try it out!
-This site was built using [AWS amplify](https://master.d38owettqxfauy.amplifyapp.com/)
+This site was built using [AWS amplify](https://master.d1nykpiwfi7xot.amplifyapp.com/)
