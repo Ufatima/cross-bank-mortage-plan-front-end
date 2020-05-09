@@ -29,7 +29,7 @@ const FileUploadButton = () => {
   const onClickHandler = async() => {
     const data = new FormData() 
     data.append('file', selectedFile)
-    const res = await axios.post("https://condescending-brown-0fbad9.netlify.app/upload", data)
+    const res = await axios.post("http://localhost:3000/upload", data)
     setprospectsData(res.data)
   }
   
