@@ -55,7 +55,7 @@ const MortgegeCalculateForm = () => {
         years: values.years
       }
       const res = await axios.post(
-        '/prospect', newPersistance
+        'http://crosskeyspringrest-env.eba-2nhmp3dm.us-east-1.elasticbeanstalk.com/prospect', newPersistance
       )
       setData(res.data)
     },
