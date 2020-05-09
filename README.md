@@ -6,7 +6,10 @@ Calculating monthly payment for mortgage loan
 ```bash
 $ yarn start
 ```
-## Try it out!
-https://master.d38owettqxfauy.amplifyapp.com/
 
 ![alt tag](public/images/Screenshot1.png)
+![alt tag](public/images/Screenshot2.png)
+
+
+## Try it out!
+https://master.d38owettqxfauy.amplifyapp.com/
