@@ -55,7 +55,7 @@ const MortgegeCalculateForm = () => {
         years: values.years
       }
       const res = await axios.post(
-        'http://localhost:9090/prospect', newPersistance      
+        '/prospect', newPersistance
       )
       setData(res.data)
     },
