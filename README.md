@@ -13,7 +13,7 @@ cd cross-bank-backend
 ```bash
 $ yarn start
 ```
-the app runs on http://localhost:3000
+the app runs on http://localhost:3000 and no need to run server
 
 ![alt tag](public/images/Screenshot1.png)
 ![alt tag](public/images/Screenshot2.png)
