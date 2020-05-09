@@ -29,7 +29,7 @@ const FileUploadButton = () => {
   const onClickHandler = async() => {
     const data = new FormData() 
     data.append('file', selectedFile)
-    const res = await axios.post("http://localhost:9090/upload", data)
+    const res = await axios.post("http://crosskeyspringrest-env.eba-2nhmp3dm.us-east-1.elasticbeanstalk.com/upload", data)
     setprospectsData(res.data)
   }
   
